@@ -21,7 +21,7 @@ Analysis was ... {add detail}
 
 **📈 Visualisation:**
 
-![/Customer Segementation](/images/1_customer_segmentation.png)
+<img src="/images/1_customer_segmentation.png" alt="Customer Segmentation" style="width:75%;">
 
 **📊 Key Findings:**
 - aaaa
@@ -43,7 +43,7 @@ Analysis was ... {add detail}
 
 **📈 Visualisation:**
 
-![/Cohort Analysis](/images/2_cohort_analysis.png)
+<img src="/images/2_cohort_analysis.png" alt="Cohort Analysis" style="width:75%;">
 
 **📊 Key Findings:**
 - aaaa
@@ -65,7 +65,7 @@ Analysis was ... {add detail}
 
 **📈 Visualisation:**
 
-![/Retention Analysis](/images/3_customer_retention.png)
+<img src="/images/3_customer_retention.png" alt="Retention Analysis" style="width:75%;">
 
 **📊 Key Findings:**
 - aaaa
