@@ -6,9 +6,9 @@ SELECT
 FROM
 	cohort_analysis
 WHERE
-	orderdate = first_purchase_date 
+	orderdate = first_purchase_date
 GROUP BY
 	cohort
-ORDER BY 
-    cohort
+ORDER BY
+	cohort
 ;
