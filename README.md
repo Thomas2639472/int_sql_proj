@@ -1,20 +1,16 @@
 # Intermediate SQL - Sales Analysis - [Luke Barousse Course](https://www.youtube.com/watch?v=QKIGsShyEsQ)
----
 
 ## Overview
----
 My version of the Luke Barousse Intermediate SQL Data Analytics Course. Highly similar to his of course, with my own additions and extra analysis and plots.
 
 Analysis was ... {add detail}
 
 ## Business Questions
----
 1. <b>Customer Segmentation</b>
 2. <b>Cohort Analysis</b>
 3. <b>Customer Retention</b>
 
 ## Analysis Approach
----
 
 ### <u>1. Customer Segmentation</u>
 - aaaaa
@@ -106,11 +102,9 @@ Analysis was ... {add detail}
 - aaaa
 
 ## Strategic Recommendations
----
 1. {insert strategic recommendationsh ere}
 
 ## Technical Details
----
 - **Database:** PostgreSQL
 - **Analysis Tools:** DBeaver, PostrgeSQL, PGAdmin
 - **Visualisations:** ChatGPT, Python (Matplotlib)
