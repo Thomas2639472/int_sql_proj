@@ -23,9 +23,9 @@ Analysis was ... {add detail}
 
 **📈 Visualisation:**
 
-<img src="1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.png" alt="Customer Segmentation - Lifetime Revenue" style="width:75%;">
+<img src="/images/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.png" alt="Customer Segmentation - Lifetime Revenue" style="width:75%;">
 
-<img src="1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.png" alt="Customer Segmentation - Lifetime Orders" style="width:75%;">
+<img src="/images/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.png" alt="Customer Segmentation - Lifetime Orders" style="width:75%;">
 
 
 
