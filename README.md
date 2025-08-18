@@ -21,18 +21,17 @@ Analysis was ... {add detail}
 - [1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.sql](/Scripts/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.sql)
 - [1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.sql](/Scripts/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.sql)</b>
 
-**📈 Visualisation:**
+**📈 Visualisations:**
 
 <img src="/images/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.png" alt="Customer Segmentation - Lifetime Revenue" style="width:75%;">
 
 <img src="/images/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.png" alt="Customer Segmentation - Lifetime Orders" style="width:75%;">
 
 
-
 **📊 Key Findings:**
-- aaaa
-- aaaa
-- aaaa
+- The top quartile of highest LTV customers contribute almsot two thirds of company lifetime revenue!
+- The top quartile of highest LTV customers contribute around half of total orders.
+- Clearly high LTV customers make more orders and more expensive orders on average ---- {add something about this that leads to business insights...}
 
 **💡 Business Insights:**
 - aaaa
@@ -45,11 +44,16 @@ Analysis was ... {add detail}
 - aaaaaaa
 - aaaaa
 
-**💻 Query: [2_cohort_analysis.sql](/Scripts/2_cohort_analysis.sql)**
+<b>💻 Queries: 
+- [2_cohort_analysis-year_rev_by_cohort.sql](/Scripts/2_cohort_analysis-year_rev_by_cohort.sql)
+- [2_cohort_analysis-day_rev_by_cohort.sql](/Scripts/2_cohort_analysis-day_rev_by_cohort.sql)
+- [2_cohort_analysis-year_orders_by_cohort.sql](/Scripts/2_cohort_analysis-year_orders_by_cohort.sql)</b>
 
-**📈 Visualisation:**
+**📈 Visualisations:**
 
-<img src="/images/2_cohort_analysis.png" alt="Cohort Analysis" style="width:75%;">
+<img src="/images/2_cohort_analysis-year_rev_by_cohort.png" alt="Cohort Analysis 1st Year Revenue by Cohort" style="width:75%;">
+<img src="/images/2_cohort_analysis-day_rev_by_cohort.png" alt="Cohort Analysis 1st Day Revenue by Cohort" style="width:50%;">
+<img src="/images/2_cohort_analysis-year_orders_by_cohort.png" alt="Cohort Analysis 1st Year Total Orders by Cohort" style="width:75%;">
 
 **📊 Key Findings:**
 - aaaa
@@ -89,5 +93,5 @@ Analysis was ... {add detail}
 ## Technical Details
 - **Database:** PostgreSQL
 - **Analysis Tools:** DBeaver, PostrgeSQL, PGAdmin
-- **Visualisations:** ChatGPT, Python (MatPlotLib)
+- **Visualisations:** ChatGPT, Python (Matplotlib)
 
