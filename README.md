@@ -17,11 +17,17 @@ Analysis was ... {add detail}
 - aaaaaa
 - aaaa
 
-**💻 Query: [1_customer_segmentation.sql](/Scripts/1_customer_segmentation.sql)**
+<b>💻 Queries: 
+- [1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.sql](/Scripts/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.sql)
+- [1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.sql](/Scripts/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.sql)</b>
 
 **📈 Visualisation:**
 
-<img src="/images/1_customer_segmentation.png" alt="Customer Segmentation" style="width:75%;">
+<img src="1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.png" alt="Customer Segmentation - Lifetime Revenue" style="width:75%;">
+
+<img src="1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.png" alt="Customer Segmentation - Lifetime Orders" style="width:75%;">
+
+
 
 **📊 Key Findings:**
 - aaaa
