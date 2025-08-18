@@ -82,6 +82,6 @@ Analysis was ... {add detail}
 
 ## Technical Details
 - **Database:** PostgreSQL
-- **Analysis Tools:** DBeaver, PostrgeSQL
+- **Analysis Tools:** DBeaver, PostrgeSQL, PGAdmin
 - **Visualisations:** ChatGPT, Python (MatPlotLib)
 
