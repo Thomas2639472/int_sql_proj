@@ -3,15 +3,6 @@
 ## Overview
 My version of the Luke Barousse Intermediate SQL Data Analytics Course. Highly similar to his of course, with a few extra additions and plots.
 
-Analysis focused on three major themes: 
-- Cutomer segmentation focued on characterising customers into cohorts by life time value (LTV):
-  - These cohorts' contribution to the total orders and lifetime revenue of the business where then caluclated and plotted
-  - This allowed us to see how these diferent cohorts contribute to the buesiness, and therefore consider potential improvements in marketing to target low-value but high-potential customers
-- Cohort analysis focused on characterising customers into cohorts by year of first purchase:
-  - Their 1st year revenue and order count were then calculated and plotted
-  - This allowed us to visualise potential trends in customer value and identify potential shifts in revenue contibution over time
-- Customer Retention ... {add more}
-
 ## Business Questions
 1. <b>Customer Segmentation</b>
 2. <b>Cohort Analysis</b>
@@ -20,9 +11,9 @@ Analysis focused on three major themes:
 ## Analysis Approach
 
 ### <u>1. Customer Segmentation</u>
-- aaaaa
-- aaaaaa
-- aaaa
+- Customers were grouped into cohorts based on their LTV.  
+- Each cohort’s contribution to total orders and lifetime revenue was quantified and visualized.  
+- This revealed how different segments drive business performance and highlighted opportunities to refine marketing strategies toward low-value but high-potential customers.  
 
 <b>💻 Queries: 
 - [1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.sql](/Scripts/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.sql)
@@ -41,16 +32,15 @@ Analysis focused on three major themes:
 - Clearly high LTV customers make more orders and more expensive orders on average ---- {add something about this that leads to business insights...}
 
 **💡 Business Insights:**
-- aaaa
-- aaaa
-- aaaa
+- High LTV customers are driving a disproportionate share of revenue → retention and upsell strategies for this group could yield outsized returns.
+- The long tail of low-value customers contributes very little individually but may represent a large pool of untapped potential.
+- Marketing spend may currently be too evenly distributed — reallocating resources toward nurturing “high-potential but low-current-value” cohorts could improve ROI.
 
 ---
 
 ### <u>2. Cohort Analysis</u>
-- aaaaaa
-- aaaaaaa
-- aaaaa
+- First-year revenue and order counts were calculated and plotted for each cohort.  
+- This exposed trends in customer value and uncovered shifts in revenue contribution across acquisition years.  
 
 <b>💻 Queries: 
 - [2_cohort_analysis-year_rev_by_cohort.sql](/Scripts/2_cohort_analysis-year_rev_by_cohort.sql)
@@ -76,41 +66,53 @@ Analysis focused on three major themes:
 <img src="/images/2_cohort_analysis-year_orders_by_cohort.png" alt="Cohort Analysis 1st Year Total Orders by Cohort" style="width:65%;">
 
 **📊 Key Findings:**
-- aaaa
-- aaaa
-- aaaa
+- First-year and first-day customer revenue shows a downward trend in more recent cohorts, indicating declining spend per customer.
+- First-year order volume has trended slightly upward among younger cohorts, suggesting increased activity but at lower revenue per order.
+- Together, these trends point to a potential erosion of overall customer value in newer cohorts.
 
 **💡 Business Insights:**
-- aaaa
-- aaaa
-- aaaa
+- Declining first-year revenue per customer in recent cohorts signals falling acquisition quality — newer customers may be less committed or responding to different acquisition channels.
+- Slightly higher first-year order counts suggest that frequency is up, but average order value (AOV) is declining. This could indicate growing price sensitivity or changes in product mix.
+- Without intervention, future cohorts may continue the trend of more orders but lower spend, reducing lifetime value.
 
 ---
 
 ### <u>3. Customer Retention</u>
-- aaaaaaa
-- aaaaaaaa
-- aaaaaa
+- Customers were segmented by acquisition year and classified as **Active** or **Churned**, based on purchasing activity within the last six months.  
+- The percentage of churned versus active customers was then plotted by cohort.  
+- This surfaced critical retention challenges and pinpointed weaknesses in sustaining long-term customer value.  
 
-**💻 Query: [3_retention_analysis](/Scripts/3_retention_analysis.sql)**
+
+<b>💻 Queries: 
+- [3_retention_analysis-pct_active](/Scripts/3_retention_analysis-pct_active.sql)
+- [3_retention_analysis-avg_orders](/Scripts/3_retention_analysis-pct_active.sql)</b>
 
 **📈 Visualisation:**
 
 <img src="/images/3_customer_retention_bar.png" alt="Retention Analysis Bar Chart" style="width:65%;">
 <img src="/images/3_customer_retention_line.png" alt="Retention Analysis Line Chart" style="width:65%;">
+<img src="/images/3_customer_retention_orders_per_year.png" alt="Retention Analysis Orders per Year" style="width:65%;">
 
 **📊 Key Findings:**
-- aaaa
-- aaaa
-- aaaa
+- Churn remains consistently high (~90%) across all cohorts.
+- Active customers, though a small minority, now place ~5 orders/year on average (up from ~2.6 in 2015).
+- The customer base is becoming polarized: most churn early, but retained customers are increasingly valuable.
 
 **💡 Business Insights:**
-- aaaa
-- aaaa
-- aaaa
+- While churn is a persistent challenge, the customers who remain active are significantly more engaged and generate rising order volumes.
+- Even a small shift in retaining more customers into this high-frequency group could yield outsized revenue gains.
+- Early retention efforts (e.g., onboarding, loyalty incentives, personalized offers) are key to capturing this value.
 
 ## Strategic Recommendations
-1. {insert strategic recommendationsh ere}
+1. Prioritize retention over acquisition: A small improvement in churn (e.g. from 9% active → 15% active) could drive significant long-term revenue.
+
+2. Double down on high LTV customers: Introduce VIP programs, personalized offers, or early access to maximize loyalty and referrals.
+
+3. Revisit acquisition strategy: Investigate why newer cohorts spend less — is it due to discount-heavy channels, different customer demographics, or weaker onboarding?
+
+4. Lift AOV through cross-sell/upsell: Since order frequency is rising, bundle offers, tiered discounts, or loyalty points could raise per-order value.
+
+5. Monitor cohort quality: Track acquisition channel by cohort to pinpoint which sources bring in high-value vs. low-value customers.
 
 ## Technical Details
 - **Database:** PostgreSQL
