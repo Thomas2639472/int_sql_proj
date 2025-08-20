@@ -1,9 +1,16 @@
 # Intermediate SQL - Sales Analysis - [Luke Barousse Course](https://www.youtube.com/watch?v=QKIGsShyEsQ)
 
 ## Overview
-My version of the Luke Barousse Intermediate SQL Data Analytics Course. Highly similar to his of course, with my own additions and extra analysis and plots.
+My version of the Luke Barousse Intermediate SQL Data Analytics Course. Highly similar to his of course, with a few extra additions and plots.
 
-Analysis was ... {add detail}
+Analysis focused on three major themes: 
+- Cutomer segmentation focued on characterising customers into cohorts by life time value (LTV):
+  - These cohorts' contribution to the total orders and lifetime revenue of the business where then caluclated and plotted
+  - This allowed us to see how these diferent cohorts contribute to the buesiness, and therefore consider potential improvements in marketing to target low-value but high-potential customers
+- Cohort analysis focused on characterising customers into cohorts by year of first purchase:
+  - Their 1st year revenue and order count were then calculated and plotted
+  - This allowed us to visualise potential trends in customer value and identify potential shifts in revenue contibution over time
+- Customer Retention ... {add more}
 
 ## Business Questions
 1. <b>Customer Segmentation</b>
@@ -23,9 +30,9 @@ Analysis was ... {add detail}
 
 **📈 Visualisations:**
 
-<img src="/images/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.png" alt="Customer Segmentation - Lifetime Revenue" style="width:75%;">
+<img src="/images/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_rev.png" alt="Customer Segmentation - Lifetime Revenue" style="width:65%;">
 
-<img src="/images/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.png" alt="Customer Segmentation - Lifetime Orders" style="width:75%;">
+<img src="/images/1_customer_segmentation-ltv_segments_as_pct_of_lifetime_orders.png" alt="Customer Segmentation - Lifetime Orders" style="width:65%;">
 
 
 **📊 Key Findings:**
@@ -52,7 +59,7 @@ Analysis was ... {add detail}
 
 **📈 Visualisations:**
 
-<img src="/images/2_cohort_analysis-year_rev_by_cohort.png" alt="Cohort Analysis 1st Year Revenue by Cohort" style="width:75%;">
+<img src="/images/2_cohort_analysis-year_rev_by_cohort.png" alt="Cohort Analysis 1st Year Revenue by Cohort" style="width:65%;">
 <table>
   <tr>
     <td>
@@ -66,7 +73,7 @@ Analysis was ... {add detail}
   </tr>
 </table>
 
-<img src="/images/2_cohort_analysis-year_orders_by_cohort.png" alt="Cohort Analysis 1st Year Total Orders by Cohort" style="width:75%;">
+<img src="/images/2_cohort_analysis-year_orders_by_cohort.png" alt="Cohort Analysis 1st Year Total Orders by Cohort" style="width:65%;">
 
 **📊 Key Findings:**
 - aaaa
@@ -89,7 +96,8 @@ Analysis was ... {add detail}
 
 **📈 Visualisation:**
 
-<img src="/images/3_customer_retention.png" alt="Retention Analysis" style="width:75%;">
+<img src="/images/3_customer_retention_bar.png" alt="Retention Analysis Bar Chart" style="width:65%;">
+<img src="/images/3_customer_retention_line.png" alt="Retention Analysis Line Chart" style="width:65%;">
 
 **📊 Key Findings:**
 - aaaa
